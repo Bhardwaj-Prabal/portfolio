@@ -1,0 +1,17 @@
+.grid-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.icon-wrapper {
+  transform: scale 0.3s ease-in-out;
+}
+.icon-wrapper:hover {
+  transform: scale(1.1);
+}
+.icon-wrapper:active {
+  transform: scale(1);
+}
