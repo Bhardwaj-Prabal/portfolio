@@ -4,7 +4,7 @@ const Footer = ({ iconColor }) => {
   const socials = [
     {
       name: "Instagram",
-      href: "https://instagram.com/liamsullivanphoto",
+      href: "https://www.instagram.com/prabal_.31/",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,7 @@ const Footer = ({ iconColor }) => {
     },
     {
       name: "LinkedIn",
-      href: "https://linkedin.com/in/liambsulliva",
+      href: "https://www.linkedin.com/in/prabal-bhardwaj-59ba05250/",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ const Footer = ({ iconColor }) => {
     },
     {
       name: "GitHub",
-      href: "https://github.com/liambsulliva",
+      href: "https://github.com/Bhardwaj-Prabal",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"

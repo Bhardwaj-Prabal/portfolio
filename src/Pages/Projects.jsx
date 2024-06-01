@@ -22,14 +22,14 @@ const Projects = () => {
             description="Embark on a journey down memory lane with our React-powered Pokémon Memory Game!"
             img={game}
             viewBtn="https://github.com/Bhardwaj-Prabal/memory-game"
-            demoBtn="https://vercel.com/bhardwaj-prabals-projects/memory-game/HkQbmLS53YiEZYgSsc65quxJc2em"
+            demoBtn="https://memory-game-jsjcx4cfz-bhardwaj-prabals-projects.vercel.app/"
           />
           <Card
             title="Weather App"
             description="My introduction to public APIs. Learned a lot about ES6, asynchronous functions, and await!"
             img={weatherapp}
             viewBtn="https://github.com/Bhardwaj-Prabal/Weather-app"
-            demoBtn="https://vercel.com/bhardwaj-prabals-projects/weather-app/3wm79GZz1V9Qn5QWyDWX7UKNrDnS"
+            demoBtn="https://weather-jeyt5ypv1-bhardwaj-prabals-projects.vercel.app/"
           />
           <Card
             title="To-Do List"

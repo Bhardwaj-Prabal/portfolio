@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 const Layout = ({ title, children }) => {
   return (
-    <div>
+    <>
       <Helmet>
         <html lang="en" />
         <meta charSet="UTF-8" />
@@ -73,8 +73,15 @@ const Layout = ({ title, children }) => {
         }
         @import url("https://cdn.jsdelivr.net/gh/mailtoharshit/San-Francisco-Font-/sanfrancisco.css");
         code {
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+          font-family:
+            Menlo,
+            Monaco,
+            Lucida Console,
+            Liberation Mono,
+            DejaVu Sans Mono,
+            Bitstream Vera Sans Mono,
+            Courier New,
+            monospace;
         }
         h1 {
           color: var(--header-color);
@@ -109,7 +116,9 @@ const Layout = ({ title, children }) => {
           left: 50%;
           position: absolute;
           background: var (--header-color);
-          transition: width 0.2s ease 0s, left 0.2s ease 0s;
+          transition:
+            width 0.2s ease 0s,
+            left 0.2s ease 0s;
           width: 0;
         }
         .text-link:hover:after {
@@ -129,7 +138,7 @@ const Layout = ({ title, children }) => {
         src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"
         defer
       ></script>
-    </div>
+    </>
   );
 };
 
