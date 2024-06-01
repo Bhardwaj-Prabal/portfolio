@@ -22,7 +22,7 @@ const Projects = () => {
             description="Embark on a journey down memory lane with our React-powered Pokémon Memory Game!"
             img={game}
             viewBtn="https://github.com/Bhardwaj-Prabal/memory-game"
-            demoBtn="https://memory-game-jsjcx4cfz-bhardwaj-prabals-projects.vercel.app/"
+            demoBtn="https://big-brain-pokemon.netlify.app/"
           />
           <Card
             title="Weather App"
