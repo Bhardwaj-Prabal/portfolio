@@ -29,7 +29,7 @@ const Projects = () => {
             description="My introduction to public APIs. Learned a lot about ES6, asynchronous functions, and await!"
             img={weatherapp}
             viewBtn="https://github.com/Bhardwaj-Prabal/Weather-app"
-            demoBtn="https://weather-jeyt5ypv1-bhardwaj-prabals-projects.vercel.app/"
+            demoBtn="https://checkclouds.netlify.app/"
           />
           <Card
             title="To-Do List"
