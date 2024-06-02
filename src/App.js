@@ -19,7 +19,7 @@ export default function App() {
           }
         />
         <Route
-          path="/resume/"
+          path="https://main--prabalbhardwaj.netlify.app/Resume/"
           element={
             <div className="Resume">
               <Resume />
@@ -28,7 +28,7 @@ export default function App() {
           }
         />
         <Route
-          path="/ProjectPage/"
+          path="https://main--prabalbhardwaj.netlify.app/ProjectPage/"
           element={
             <div className="App">
               <ProjectPage />
