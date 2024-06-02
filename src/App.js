@@ -19,7 +19,7 @@ export default function App() {
           }
         />
         <Route
-          path="/resume"
+          path="/resume/"
           element={
             <div className="Resume">
               <Resume />
@@ -28,7 +28,7 @@ export default function App() {
           }
         />
         <Route
-          path="/ProjectPage"
+          path="/ProjectPage/"
           element={
             <div className="App">
               <ProjectPage />
