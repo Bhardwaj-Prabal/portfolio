@@ -8,7 +8,8 @@ const Layout = ({ title, children }) => {
         <html lang="en" />
         <meta charSet="UTF-8" />
         <meta name="description" content="Liam's Personal Portfolio!" />
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="1024" />
+        
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <title>{title}</title>
       </Helmet>
