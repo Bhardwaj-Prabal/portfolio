@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import image1 from "../images/javascript-basic.png";
 import image2 from "../images/problem-solving.png";
 import image3 from "../images/react-dev.png";
+import image4 from "../images/software.png";
 import "./caraousel.css";
-const images = [image1, image2, image3];
+const images = [image3,image4, image1, image2];
 
 const FlickrCarousel = () => {
   const [photoIndex, setPhotoIndex] = useState(0);
