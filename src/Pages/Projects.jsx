@@ -3,7 +3,7 @@ import Button from "../components/ForwardButton";
 import Card from "../components/Card";
 import websitev1 from "../images/websitev1.png";
 import weatherapp from "../images/weather-app.png";
-import todos from "../images/todo.png";
+import isl from "../images/isl.png";
 import rps from "../images/rps.png";
 import game from "../images/memory-game.png";
 import auth from "../images/auth.png";
@@ -18,6 +18,21 @@ const Projects = () => {
       <div className="content">
         <div className="grid">
           <Card
+            className="grid-item"
+            title="Authentication App"
+            description="A sample authentication system for a full stack program. Stored bcrypt hashed passwords in a MongoDB database."
+            img={auth}
+            viewBtn="https://github.com/Bhardwaj-Prabal/authentication-app"
+          />
+           <Card
+           className="grid-item"
+            title="Indian Sign Language Detection"
+            description="A machine learning model to interpret indian sign language"
+            img={isl}
+            viewBtn="https://github.com/sanskreate/ISL-detection-with-LSTM"
+          />
+          <Card
+            className="grid-item"
             title="Pokemon memory-game"
             description="Embark on a journey down memory lane with our React-powered Pokémon Memory Game!"
             img={game}
@@ -25,25 +40,15 @@ const Projects = () => {
             demoBtn="https://big-brain-pokemon.netlify.app/"
           />
           <Card
+            className="grid-item"
             title="Weather App"
             description="My introduction to public APIs. Learned a lot about ES6, asynchronous functions, and await!"
             img={weatherapp}
             viewBtn="https://github.com/Bhardwaj-Prabal/Weather-app"
             demoBtn="https://checkclouds.netlify.app/"
           />
-          <Card
-            title="To-Do List"
-            description="A quick single component To-Do list in React. Was the first project I made in the framework from scratch!"
-            img={todos}
-            viewBtn="https://github.com/Bhardwaj-Prabal/Todo-App"
-            demoBtn="https://todo-app-sigma-pearl.vercel.app/"
-          />
-          <Card
-            title="Authentication App"
-            description="A sample authentication system for a full stack program. Stored bcrypt hashed passwords in a MongoDB database."
-            img={auth}
-            viewBtn="https://github.com/Bhardwaj-Prabal/authentication-app"
-          />
+          
+          
         </div>
 
         <Button

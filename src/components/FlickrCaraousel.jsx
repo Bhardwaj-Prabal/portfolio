@@ -4,7 +4,8 @@ import image2 from "../images/problem-solving.png";
 import image3 from "../images/react-dev.png";
 import image4 from "../images/software.png";
 import "./caraousel.css";
-const images = [image3,image4, image1, image2];
+
+const images = [image3, image4, image1, image2];
 
 const FlickrCarousel = () => {
   const [photoIndex, setPhotoIndex] = useState(0);

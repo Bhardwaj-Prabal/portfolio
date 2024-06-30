@@ -19,7 +19,7 @@ const Footer = ({ iconColor }) => {
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/prabal-bhardwaj-59ba05250/",
+      href: "https://www.linkedin.com/in/prabal-bhardwaj-500734315/",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
