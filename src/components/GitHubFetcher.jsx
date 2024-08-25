@@ -20,7 +20,7 @@ const GitHubFetcher = () => {
     fetchRepos();
   }, []);
 
-  // TODO: Skip forked repos, personal-website-v2, and special repo liambsulliva
+  // TODO: Skip forked repos, personal-website-v2, and special repo 
   return (
     <div className="flex-row rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       {repos.map((repo, index) => (

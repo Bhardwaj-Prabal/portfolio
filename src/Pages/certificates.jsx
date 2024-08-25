@@ -14,6 +14,7 @@ const Certificates = () => {
       <div className="content">
         <FlickrCarousel apiKey={apiKey} userId={userId} />
       </div>
+
       <style jsx>{`
         :root {
           --card-title: #94b8f9;

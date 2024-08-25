@@ -11,18 +11,18 @@ const Experience = () => {
         <h2>Experience</h2>
       </div>
       <ul className="main-list">
-      <li className="main-list-item">
+        <li className="main-list-item">
           <div className="main-list-header">
             <h3>JMedia Corporation </h3>
             <p>
               <i>Blockchain Development Intern</i>
-        
+
             </p>
           </div>
           <ul className="sub-list">
             <li className="sub-list-item">
               <p>
-              Engaged in the development and deployment of blockchain solutions, particularly focusing on NFTs (Non-Fungible Tokens).
+                Engaged in the development and deployment of blockchain solutions, particularly focusing on NFTs (Non-Fungible Tokens).
               </p>
             </li>
             <li className="sub-list-item">
@@ -32,7 +32,38 @@ const Experience = () => {
             </li>
             <li className="sub-list-item">
               <p>
-              Designed and implemented workflows for minting and distributing NFTs on various blockchain platforms such as Ethereum.
+                Designed and implemented workflows for minting and distributing NFTs on various blockchain platforms such as Ethereum.
+              </p>
+            </li>
+            <li className="sub-list-item">
+              <p>
+                Utilized <code>ethers.js</code> for interacting with the Ethereum blockchain, enabling seamless integration and management of smart contracts.
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li className="main-list-item">
+          <div className="main-list-header">
+            <h3>IBM SkillsBuild </h3>
+            <p>
+              <i>Frontend developer Internship Summer Program</i>
+
+            </p>
+          </div>
+          <ul className="sub-list">
+            <li className="sub-list-item">
+              <p>
+                Developed and implemented web interfaces using HTML, CSS,JavaScript, and React adhering to best practices in responsive design..
+              </p>
+            </li>
+            <li className="sub-list-item">
+              <p>
+                Demonstrated strong technical skills and a keen eye for design in various web development projects.
+              </p>
+            </li>
+            <li className="sub-list-item">
+              <p>
+                Quickly learned and applied new technologies and frameworks to enhance project functionality and user experience.
               </p>
             </li>
           </ul>
