@@ -2,11 +2,11 @@ import React from "react";
 import Button from "../components/ForwardButton";
 import Card from "../components/Card";
 import websitev1 from "../images/websitev1.png";
-import weatherapp from "../images/weather-app.png";
 import isl from "../images/isl.png";
 import rps from "../images/rps.png";
 import game from "../images/memory-game.png";
 import auth from "../images/auth.png";
+import Curvetopia from "../images/Curvetopia.png";
 import "./projects.css";
 
 const Projects = () => {
@@ -24,12 +24,21 @@ const Projects = () => {
             img={auth}
             viewBtn="https://github.com/Bhardwaj-Prabal/authentication-app"
           />
-           <Card
-           className="grid-item"
+          <Card
+            className="grid-item"
             title="Indian Sign Language Detection"
-            description="A machine learning model to interpret indian sign language"
+            description="A machine learning model to interpret indian sign language.Uses LSTM and Mediapipe for interpreting."
             img={isl}
             viewBtn="https://github.com/sanskreate/ISL-detection-with-LSTM"
+          />
+
+          <Card
+            className="grid-item"
+            title="Curvetopia "
+            description="Designed to process and analyze various geometric shapes by converting them into cubic Bezier curves.The project leverages several libraries, including NumPy, Matplotlib, Shapely, and SciPy, to facilitate the identification and manipulation of shapes like lines, circles, ellipses, rectangles, and more."
+            img={Curvetopia}
+            viewBtn="https://github.com/Bhardwaj-Prabal/Gensolve-Curvetopia-Solution"
+
           />
           <Card
             className="grid-item"
@@ -39,16 +48,6 @@ const Projects = () => {
             viewBtn="https://github.com/Bhardwaj-Prabal/memory-game"
             demoBtn="https://big-brain-pokemon.netlify.app/"
           />
-          <Card
-            className="grid-item"
-            title="Weather App"
-            description="My introduction to public APIs. Learned a lot about ES6, asynchronous functions, and await!"
-            img={weatherapp}
-            viewBtn="https://github.com/Bhardwaj-Prabal/Weather-app"
-            demoBtn="https://checkclouds.netlify.app/"
-          />
-          
-          
         </div>
 
         <Button
