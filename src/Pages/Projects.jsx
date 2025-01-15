@@ -19,10 +19,11 @@ const Projects = () => {
         <div className="grid">
           <Card
             className="grid-item"
-            title="Authentication App"
-            description="A sample authentication system for a full stack program. Stored bcrypt hashed passwords in a MongoDB database."
-            img={auth}
-            viewBtn="https://github.com/Bhardwaj-Prabal/authentication-app"
+            title="Curvetopia "
+            description="Designed to process and analyze various geometric shapes by converting them into cubic Bezier curves.The project leverages several libraries, including NumPy, Matplotlib, Shapely, and SciPy, to facilitate the identification and manipulation of shapes like lines, circles, ellipses, rectangles, and more."
+            img={Curvetopia}
+            viewBtn="https://github.com/Bhardwaj-Prabal/Gensolve-Curvetopia-Solution"
+
           />
           <Card
             className="grid-item"
@@ -31,15 +32,14 @@ const Projects = () => {
             img={isl}
             viewBtn="https://github.com/sanskreate/ISL-detection-with-LSTM"
           />
-
           <Card
             className="grid-item"
-            title="Curvetopia "
-            description="Designed to process and analyze various geometric shapes by converting them into cubic Bezier curves.The project leverages several libraries, including NumPy, Matplotlib, Shapely, and SciPy, to facilitate the identification and manipulation of shapes like lines, circles, ellipses, rectangles, and more."
-            img={Curvetopia}
-            viewBtn="https://github.com/Bhardwaj-Prabal/Gensolve-Curvetopia-Solution"
-
+            title="Authentication App"
+            description="A sample authentication system for a full stack program. Stored bcrypt hashed passwords in a MongoDB database."
+            img={auth}
+            viewBtn="https://github.com/Bhardwaj-Prabal/authentication-app"
           />
+
           <Card
             className="grid-item"
             title="Pokemon memory-game"
