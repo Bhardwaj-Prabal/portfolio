@@ -5,7 +5,7 @@ import websitev1 from "../images/websitev1.png";
 import isl from "../images/isl.png";
 import rps from "../images/rps.png";
 import game from "../images/memory-game.png";
-import auth from "../images/auth.png";
+import torro from "../images/torro.jpeg";
 import Curvetopia from "../images/Curvetopia.png";
 import "./projects.css";
 
@@ -27,18 +27,19 @@ const Projects = () => {
           />
           <Card
             className="grid-item"
+            title="Torro-Split:Torrent based file system"
+            description="A secure, decentralized file management system that splits, encrypts, and distributes files across multiple nodes with real-time access and permission-based retrieval."
+            img={torro}
+            viewBtn="https://github.com/rnbr04/torro-split"
+          />
+          <Card
+            className="grid-item"
             title="Indian Sign Language Detection"
             description="A machine learning model to interpret indian sign language.Uses LSTM and Mediapipe for interpreting."
             img={isl}
             viewBtn="https://github.com/sanskreate/ISL-detection-with-LSTM"
           />
-          <Card
-            className="grid-item"
-            title="Authentication App"
-            description="A sample authentication system for a full stack program. Stored bcrypt hashed passwords in a MongoDB database."
-            img={auth}
-            viewBtn="https://github.com/Bhardwaj-Prabal/authentication-app"
-          />
+          
 
           <Card
             className="grid-item"
