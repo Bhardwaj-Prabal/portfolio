@@ -10,7 +10,7 @@ const Tools = () => {
         <div className="icon-wrapper">
           <a href="https://react.dev" target="_blank" rel="noreferrer">
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="https://spring.io/img/spring.svg"
               width="4rem"
               height="4rem"
               viewBox="0 0 24 24"

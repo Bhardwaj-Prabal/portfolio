@@ -11,6 +11,37 @@ const Experience = () => {
         <h2>Experience</h2>
       </div>
       <ul className="main-list">
+          <li className="main-list-item">
+          <div className="main-list-header">
+            <h3>ShelfEx LLC </h3>
+            <p>
+              <i>AI/ML Intern</i>
+
+            </p>
+          </div>
+          <ul className="sub-list">
+            <li className="sub-list-item">
+              <p>
+                Designed and trained deep learning models for computer vision tasks such as object detection, segmentation, and pose estimation on shelf/product images.
+              </p>
+            </li>
+            <li className="sub-list-item">
+              <p>
+                Developed generative AI models (vision-to-text, summarization, LLM prompting) to enhance insight generation for retail analytics.
+              </p>
+            </li>
+            <li className="sub-list-item">
+              <p>
+               Optimized and deployed models for edge inference with constraints on latency and compute.
+              </p>
+            </li>
+            <li className="sub-list-item">
+              <p>
+                Built robust data pipelines to handle millions of images, metadata, and sales data — enabling continuous training and evaluation.
+              </p>
+            </li>
+          </ul>
+        </li>
         <li className="main-list-item">
           <div className="main-list-header">
             <h3>JMedia Corporation </h3>
